@@ -640,3 +640,16 @@ blockquote cite {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   color: var(--neutral-gray);
 }
+
+/* Accessibility */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: 2px solid var(--primary-blue);
+  outline-offset: 2px;
+}
+
+.cta-button:focus {
+  box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.3);
+}
