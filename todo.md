@@ -619,10 +619,10 @@ textarea:focus {
 - Optimize file sizes
 
 **Acceptance Criteria**:
-- [ ] WebP images with JPG fallback
-- [ ] Native lazy loading implemented
-- [ ] All images under 50KB each
-- [ ] Proper alt text for all images
+- [x] WebP images with JPG fallback
+- [x] Native lazy loading implemented
+- [x] All images under 50KB each
+- [x] Proper alt text for all images
 
 ---
 
