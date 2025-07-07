@@ -132,3 +132,37 @@ body {
   font-size: 0.9rem;
   color: var(--neutral-gray);
 }
+
+/* Value Proposition Section */
+.value-prop {
+  padding: var(--section-padding) 0;
+  background-color: var(--neutral-gray);
+  text-align: center;
+}
+
+.value-card {
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.value-card svg {
+  margin-bottom: 1rem;
+}
+
+.value-card h3 {
+  font-size: var(--h3-size);
+  color: var(--primary-blue);
+  margin-bottom: 0.5rem;
+}
+
+.value-card p {
+  font-size: var(--body-size);
+  color: var(--text-dark);
+  margin-bottom: 0.5rem;
+}

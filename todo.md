@@ -221,10 +221,10 @@ project-root/
 ```
 
 **Acceptance Criteria**:
-- [ ] 3 responsive columns
-- [ ] Inline SVG icons (simple line icons)
-- [ ] Card design with subtle shadows
-- [ ] Alternating background color
+- [x] 3 responsive columns
+- [x] Inline SVG icons (simple line icons)
+- [x] Card design with subtle shadows
+- [x] Alternating background color
 
 ---
 
