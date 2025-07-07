@@ -110,10 +110,10 @@ project-root/
 ```
 
 **Acceptance Criteria**:
-- [ ] Define all color variables from design specs
-- [ ] Set up responsive typography with clamp()
-- [ ] Define spacing and layout variables
-- [ ] Include CSS reset/normalize
+- [x] Define all color variables from design specs
+- [x] Set up responsive typography with clamp()
+- [x] Define spacing and layout variables
+- [x] Include CSS reset/normalize
 
 ---
 
