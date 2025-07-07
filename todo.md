@@ -73,10 +73,10 @@ project-root/
 ```
 
 **Acceptance Criteria**:
-- [ ] Use semantic HTML5 elements (header, section, footer, nav, article, aside)
-- [ ] Include proper heading hierarchy (h1, h2, h3)
-- [ ] Add ARIA landmarks where needed
-- [ ] Include lang attribute and meta charset
+- [x] Use semantic HTML5 elements (header, section, footer, nav, article, aside)
+- [x] Include proper heading hierarchy (h1, h2, h3)
+- [x] Add ARIA landmarks where needed
+- [x] Include lang attribute and meta charset
 
 ---
 
