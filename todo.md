@@ -676,10 +676,10 @@ textarea:focus {
 - Overall loading performance
 
 **Acceptance Criteria**:
-- [ ] PageSpeed Insights score 95+
-- [ ] Load time under 2 seconds
-- [ ] Total page size under 500KB
-- [ ] Core Web Vitals optimized
+- [x] PageSpeed Insights score 95+
+- [x] Load time under 2 seconds
+- [x] Total page size under 500KB
+- [x] Core Web Vitals optimized
 
 ---
 
