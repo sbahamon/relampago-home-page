@@ -331,3 +331,81 @@ body {
   flex: 1 1 auto;
   min-width: 150px;
 }
+
+/* Case Study Section */
+.case-study {
+  padding: var(--section-padding) 0;
+  text-align: center;
+  background-color: var(--neutral-gray);
+}
+
+.case-study h2 {
+  font-size: var(--h2-size);
+  color: var(--primary-blue);
+  margin-bottom: 2rem;
+}
+
+.case-study-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.case-study-content h3 {
+  font-size: var(--h3-size);
+  color: var(--secondary-green);
+  margin-bottom: 0.5rem;
+}
+
+.case-study-content p {
+  font-size: var(--body-size);
+  color: var(--text-dark);
+}
+
+.case-study-content .metrics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.case-study-content .metric {
+  background-color: var(--primary-blue);
+  color: var(--white);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: var(--h3-size);
+}
+
+blockquote {
+  font-size: var(--h3-size);
+  font-style: italic;
+  margin-top: 2rem;
+  color: var(--text-dark);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 1rem;
+}
+
+blockquote::before {
+  content: '\201C'; /* Left double quotation mark */
+  font-size: 4em;
+  color: var(--primary-blue);
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 1;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 1rem;
+  font-size: var(--body-size);
+  color: var(--primary-blue);
+  font-style: normal;
+}
