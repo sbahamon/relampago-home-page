@@ -638,10 +638,10 @@ textarea:focus {
 - Use critical CSS inline if needed
 
 **Acceptance Criteria**:
-- [ ] CSS minified and optimized
-- [ ] No unused styles
-- [ ] Critical CSS considerations
-- [ ] File size under target
+- [x] CSS minified and optimized
+- [x] No unused styles
+- [x] Critical CSS considerations
+- [x] File size under target
 
 ---
 
@@ -657,10 +657,10 @@ textarea:focus {
 - Edge (latest)
 
 **Acceptance Criteria**:
-- [ ] Visual consistency across browsers
-- [ ] Functionality works in all browsers
-- [ ] CSS fallbacks for unsupported features
-- [ ] Form submission works properly
+- [x] Visual consistency across browsers
+- [x] Functionality works in all browsers
+- [x] CSS fallbacks for unsupported features
+- [x] Form submission works properly
 
 ---
 
