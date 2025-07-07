@@ -166,3 +166,77 @@ body {
   color: var(--text-dark);
   margin-bottom: 0.5rem;
 }
+
+/* Services Section */
+.services {
+  padding: var(--section-padding) 0;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: var(--h2-size);
+  color: var(--primary-blue);
+  margin-bottom: 2rem;
+}
+
+.service-card {
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card.popular {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.service-card h3 {
+  font-size: var(--h3-size);
+  color: var(--primary-blue);
+  margin-bottom: 1rem;
+}
+
+.service-card .price {
+  font-size: var(--h2-size);
+  color: var(--secondary-green);
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.service-card .duration {
+  font-size: var(--body-size);
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.service-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.service-card ul li {
+  margin-bottom: 0.5rem;
+  color: var(--text-dark);
+}
+
+.service-card .cta-button {
+  background-color: var(--primary-blue);
+  color: var(--white);
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.service-card .cta-button:hover,
+.service-card .cta-button:focus {
+  background-color: #15328a; /* A slightly darker blue for hover/focus */
+}

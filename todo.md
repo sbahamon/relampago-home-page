@@ -263,11 +263,11 @@ project-root/
 ```
 
 **Acceptance Criteria**:
-- [ ] 3 responsive service cards
-- [ ] Middle card elevated with shadow
-- [ ] Pricing prominent but not dominant
-- [ ] Check marks for included items
-- [ ] "Most Popular" badge on middle card
+- [x] 3 responsive service cards
+- [x] Middle card elevated with shadow
+- [x] Pricing prominent but not dominant
+- [x] Check marks for included items
+- [x] "Most Popular" badge on middle card
 
 ---
 
