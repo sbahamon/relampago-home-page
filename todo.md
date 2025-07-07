@@ -311,11 +311,11 @@ project-root/
 ```
 
 **Acceptance Criteria**:
-- [ ] 2-column layout for founders
-- [ ] Professional styling for credentials
-- [ ] Achievements banner with 4 metrics
-- [ ] LinkedIn icon links
-- [ ] Placeholder for professional photos
+- [x] 2-column layout for founders
+- [x] Professional styling for credentials
+- [x] Achievements banner with 4 metrics
+- [x] LinkedIn icon links
+- [x] Placeholder for professional photos
 
 ---
 

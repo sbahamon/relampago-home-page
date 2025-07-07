@@ -240,3 +240,94 @@ body {
 .service-card .cta-button:focus {
   background-color: #15328a; /* A slightly darker blue for hover/focus */
 }
+
+/* About Us Section */
+.about {
+  padding: var(--section-padding) 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: var(--h2-size);
+  color: var(--primary-blue);
+  margin-bottom: 2rem;
+}
+
+.founder-card {
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.founder-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.founder-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.founder-card h3 {
+  font-size: var(--h3-size);
+  color: var(--primary-blue);
+  margin-bottom: 0.5rem;
+}
+
+.founder-card .title {
+  font-size: var(--body-size);
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.founder-card .credentials {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.founder-card .credentials li {
+  margin-bottom: 0.5rem;
+  color: var(--text-dark);
+}
+
+.founder-card .linkedin-link {
+  color: var(--primary-blue);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.founder-card .linkedin-link:hover,
+.founder-card .linkedin-link:focus {
+  text-decoration: underline;
+}
+
+.achievements-banner {
+  background-color: var(--primary-blue);
+  color: var(--white);
+  padding: 2rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.achievement {
+  font-size: var(--body-size);
+  font-weight: bold;
+  text-align: center;
+  flex: 1 1 auto;
+  min-width: 150px;
+}
