@@ -400,11 +400,11 @@ project-root/
 ```
 
 **Acceptance Criteria**:
-- [ ] 4-step horizontal flow on desktop
-- [ ] Vertical stack on mobile
-- [ ] Connected arrows between steps
-- [ ] Icons for each step
-- [ ] Clear step descriptions
+- [x] 4-step horizontal flow on desktop
+- [x] Vertical stack on mobile
+- [x] Connected arrows between steps
+- [x] Icons for each step
+- [x] Clear step descriptions
 
 ---
 
